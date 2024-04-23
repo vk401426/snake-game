@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Try</title>
+    <link rel="stylesheet" href="snake.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee+Spice&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="mainBox">
+      <div class="extras">
+        <div id="highSc">
+          <p class="lna">High Score</p>
+          <p class="lnb" id="lna">0</p>
+        </div>
+        <div id="crntSc">
+          <p class="lna" >Score</p>
+          <p class="lnb" id="lnb">0</p>
+        </div>
+        </div>
+        <div id="playGrd">
+          <div id="snkFd"></div>
+          
+        </div>
+      
+      <div id="right">
+        <input type="button" value="start" id="mt-btn" onclick="gameStart()" />
+      </div>
+    </div>
+    <div class="ovr">
+    
+      <div style="font-family: Bungee Spice, sans-serif;">GAME OVER</div>
+  </div>
+    <script src="snake.js"></script>
+    
+  </body>
+</html>
